@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2988449041fd749953e3a550286e08, type: 3}
+  m_Name: AxeData
+  m_EditorClassIdentifier: 
+  _axeData:
+  - _identifier: a1
+    __sprite: {fileID: 21300000, guid: 037539c7497c4d24fad002a39906a72d, type: 3}
+  - _identifier: a2
+    __sprite: {fileID: 21300000, guid: 058b06cc9b53256408d73259dd8ea946, type: 3}
+  - _identifier: a3
+    __sprite: {fileID: 21300000, guid: c5fc34a2248ba2749a7ccd08237d27c2, type: 3}
