@@ -19,15 +19,6 @@ public class Mage : Entity
        bool resultAttack =  _target.TakeDamage(_vectorAttack);
 
         ui.SetHPEnemy(_currentHealth);
-
-        if(resultAttack == true)
-        {
-         //    ui.ResultAttackOnPlayer("попал");
-          
-        }
-        
     }
-
-   
 
 }

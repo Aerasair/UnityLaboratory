@@ -1,12 +1,21 @@
 ﻿using Assets.Game2;
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(SpriteRenderer))]
 public abstract class Entity : MonoBehaviour
 {
+    [Header("Общие статы")]
+    [Range(0,50)]
     [SerializeField] protected int _maxHealth;
     [SerializeField] protected Entity _target;
+    [Header("Вектора")]
+    [Tooltip("Вектор атаки")]
     [SerializeField] protected EnumDirections _vectorAttack;
+    [Tooltip("Вектор защиты")]
     [SerializeField] protected EnumDirections _vectorShield;
+
+
     [SerializeField] protected UI ui;
 
     [SerializeField] protected Animator _animator;

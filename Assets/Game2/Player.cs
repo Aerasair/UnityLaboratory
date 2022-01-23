@@ -13,7 +13,6 @@ public class Player : Entity
             _moveGame.PlayerMove = false;
 
             ui.SetHPPlayer(_currentHealth);
-          //  ui.ResultAttackOnEnemy("попал");
         }
     }
 
