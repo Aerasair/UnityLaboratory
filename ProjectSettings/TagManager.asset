@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - UI
+  - Witch
+  - Wall
+  - Mob
+  - setTextUI
   layers:
   - Default
   - TransparentFX
